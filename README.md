@@ -28,8 +28,7 @@ This action deletes versions of a package from [GitHub Packages](https://github.
   # Required if deleting a version from a package hosted in a different org than the one executing the workflow.
   owner:
 
-  # Name of the package.
-  # Required
+  # Name of the package.  
   package-name:
 
   # Type of the package. Can be one of docker (v4 or older), container (v5 or newer), maven, npm, nuget, or rubygems.

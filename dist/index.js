@@ -128,9 +128,11 @@ class Input {
                 this.deleteUntaggedVersions === 'true')) {
             return false;
         }
+        /*
         if (this.packageType === '' || this.packageName === '') {
             return false;
         }
+        */
         if (this.deletePreReleaseVersions === 'true') {
             this.minVersionsToKeep =
                 this.minVersionsToKeep > 0 ? this.minVersionsToKeep : 0;

@@ -76,9 +76,11 @@ export class Input {
       return false
     }
 
+    /*
     if (this.packageType === '' || this.packageName === '') {
       return false
     }
+    */
 
     if (this.deletePreReleaseVersions === 'true') {
       this.minVersionsToKeep =
